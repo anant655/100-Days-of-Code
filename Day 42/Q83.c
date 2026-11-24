@@ -1,4 +1,5 @@
-// Q83: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q83: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <ctype.h>
 int main(void) {
     char text[500];
@@ -14,4 +15,4 @@ int main(void) {
     }
     printf("Vowels = %d\nConsonants = %d\n", vowels, consonants);
     return 0;
-}\n
+}
