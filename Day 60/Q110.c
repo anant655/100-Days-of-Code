@@ -1,4 +1,5 @@
-// Q110: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q110: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, k, a[100], i, j, maximum;
     printf("Enter size and window size k: "); scanf("%d %d", &n, &k);
@@ -11,4 +12,4 @@ int main(void) {
     }
     printf("\n");
     return 0;
-}\n
+}
