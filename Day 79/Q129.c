@@ -1,4 +1,5 @@
-// Q129: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q129: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *file = fopen("numbers.txt", "r");
     int number, count = 0;
@@ -9,4 +10,4 @@ int main(void) {
     if (count == 0) { printf("No numbers found\n"); return 0; }
     printf("Sum = %lld\nAverage = %.2f\n", sum, (double)sum / count);
     return 0;
-}\n
+}
