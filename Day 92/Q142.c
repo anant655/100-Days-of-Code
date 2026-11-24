@@ -1,4 +1,5 @@
-// Q142: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q142: Solution in beginner-friendly C.
+#include <stdio.h>
 struct Student { char name[50]; int roll_no; float marks; };
 int main(void) {
     struct Student students[5];
@@ -10,4 +11,4 @@ int main(void) {
     printf("\nAll student records:\n");
     for (i = 0; i < 5; i++) printf("%s | Roll: %d | Marks: %.2f\n", students[i].name, students[i].roll_no, students[i].marks);
     return 0;
-}\n
+}
