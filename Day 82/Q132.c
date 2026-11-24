@@ -1,4 +1,5 @@
-// Q132: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q132: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum TrafficLight { RED, YELLOW, GREEN };
     int choice;
@@ -11,4 +12,4 @@ int main(void) {
         default: printf("Invalid choice\n");
     }
     return 0;
-}\n
+}
