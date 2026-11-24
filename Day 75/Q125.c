@@ -1,4 +1,5 @@
-// Q125: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q125: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *file;
     char filename[100], line[500];
@@ -12,4 +13,4 @@ int main(void) {
     fclose(file);
     printf("Text appended successfully\n");
     return 0;
-}\n
+}
