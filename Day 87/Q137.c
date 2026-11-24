@@ -1,4 +1,5 @@
-// Q137: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q137: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum Role { ADMIN, USER, GUEST };
     int role;
@@ -11,4 +12,4 @@ int main(void) {
         default: printf("Invalid role\n");
     }
     return 0;
-}\n
+}
