@@ -1,4 +1,5 @@
-// Q122: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q122: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *file = fopen("info.txt", "r");
     char line[200];
@@ -6,4 +7,4 @@ int main(void) {
     while (fgets(line, sizeof(line), file) != NULL) printf("%s", line);
     fclose(file);
     return 0;
-}\n
+}
