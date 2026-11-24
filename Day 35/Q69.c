@@ -1,4 +1,5 @@
-// Q69: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q69: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], largest, second, hasSecond = 0;
     printf("Enter number of elements: ");
@@ -14,4 +15,4 @@ int main(void) {
     if (hasSecond) printf("Second largest = %d\n", second);
     else printf("No distinct second largest element\n");
     return 0;
-}\n
+}
