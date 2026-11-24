@@ -1,4 +1,5 @@
-// Q103: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q103: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], i, total = 0, left = 0, answer = -1;
     printf("Enter size: "); scanf("%d", &n);
@@ -11,4 +12,4 @@ int main(void) {
     }
     printf("Pivot index = %d\n", answer);
     return 0;
-}\n
+}
