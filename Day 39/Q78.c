@@ -1,4 +1,5 @@
-// Q78: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q78: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, j, a[20][20], sum = 0;
     printf("Enter order of square matrix: ");
@@ -10,4 +11,4 @@ int main(void) {
     }
     printf("Main diagonal sum = %d\n", sum);
     return 0;
-}\n
+}
