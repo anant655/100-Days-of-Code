@@ -1,4 +1,5 @@
-// Q87: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q87: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <ctype.h>
 int main(void) {
     char text[500];
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("Spaces = %d\nDigits = %d\nSpecial characters = %d\n", spaces, digits, special);
     return 0;
-}\n
+}
