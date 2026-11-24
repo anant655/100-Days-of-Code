@@ -1,4 +1,5 @@
-// Q143: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q143: Solution in beginner-friendly C.
+#include <stdio.h>
 struct Student { char name[50]; int roll_no; float marks; };
 int main(void) {
     struct Student students[5];
@@ -10,4 +11,4 @@ int main(void) {
     }
     printf("Top student: %s, Roll: %d, Marks: %.2f\n", students[highest].name, students[highest].roll_no, students[highest].marks);
     return 0;
-}\n
+}
