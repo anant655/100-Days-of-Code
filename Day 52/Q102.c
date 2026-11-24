@@ -1,4 +1,5 @@
-// Q102: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q102: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], x, i, answer = -1;
     printf("Enter size: "); scanf("%d", &n);
@@ -9,4 +10,4 @@ int main(void) {
     for (i = 0; i < n; i++) if (a[i] >= x) { answer = i; break; }
     printf("%d\n", answer);
     return 0;
-}\n
+}
