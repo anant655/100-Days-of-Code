@@ -1,4 +1,5 @@
-// Q58: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q58: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], maximum, minimum;
     printf("Enter number of elements: ");
@@ -13,4 +14,4 @@ int main(void) {
     }
     printf("Maximum = %d\nMinimum = %d\n", maximum, minimum);
     return 0;
-}\n
+}
