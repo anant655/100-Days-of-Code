@@ -1,4 +1,5 @@
-// Q130: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q130: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *file = fopen("students.txt", "w");
     char name[50];
@@ -18,4 +19,4 @@ int main(void) {
         printf("Name: %s, Roll: %d, Marks: %.2f\n", name, roll, marks);
     fclose(file);
     return 0;
-}\n
+}
