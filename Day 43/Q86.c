@@ -1,4 +1,5 @@
-// Q86: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q86: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char text[500];
     int length = 0, i, palindrome = 1;
@@ -8,4 +9,4 @@ int main(void) {
     for (i = 0; i < length / 2; i++) if (text[i] != text[length - 1 - i]) palindrome = 0;
     printf("%s\n", palindrome ? "Palindrome" : "Not palindrome");
     return 0;
-}\n
+}
