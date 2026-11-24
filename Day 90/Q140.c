@@ -1,4 +1,5 @@
-// Q140: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q140: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum Gender { MALE, FEMALE, OTHER };
     struct Person { char name[50]; enum Gender gender; } person;
@@ -13,4 +14,4 @@ int main(void) {
     else if (person.gender == FEMALE) printf("Female\n");
     else printf("Other\n");
     return 0;
-}\n
+}
