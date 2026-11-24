@@ -1,4 +1,5 @@
-// Q105: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q105: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], i, candidate = 0, count = 0, frequency = 0;
     printf("Enter size: "); scanf("%d", &n);
@@ -13,4 +14,4 @@ int main(void) {
     if (frequency > n / 2) printf("Majority element = %d\n", candidate);
     else printf("-1\n");
     return 0;
-}\n
+}
