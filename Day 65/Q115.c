@@ -1,4 +1,5 @@
-// Q115: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q115: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char s[500], t[500];
     int count[26] = {0}, i, same = 1;
@@ -9,4 +10,4 @@ int main(void) {
     for (i = 0; i < 26; i++) if (count[i] != 0) same = 0;
     printf("%s\n", same ? "Anagram" : "Not Anagram");
     return 0;
-}\n
+}
