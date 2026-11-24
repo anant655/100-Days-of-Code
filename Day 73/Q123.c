@@ -1,4 +1,5 @@
-// Q123: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q123: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <ctype.h>
 int main(void) {
     FILE *file;
@@ -19,4 +20,4 @@ int main(void) {
     fclose(file);
     printf("Characters = %d\nWords = %d\nLines = %d\n", characters, words, lines);
     return 0;
-}\n
+}
