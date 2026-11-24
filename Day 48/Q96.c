@@ -1,4 +1,5 @@
-// Q96: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q96: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 void reverse(char text[], int start, int end) {
     while (start < end) { char temp = text[start]; text[start] = text[end]; text[end] = temp; start++; end--; }
@@ -14,4 +15,4 @@ int main(void) {
     }
     printf("%s\n", sentence);
     return 0;
-}\n
+}
