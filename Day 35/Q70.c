@@ -1,4 +1,5 @@
-// Q70: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q70: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, k, i, a[100], result[100];
     printf("Enter number of elements and k: ");
@@ -12,4 +13,4 @@ int main(void) {
     for (i = 0; i < n; i++) printf("%d ", result[i]);
     printf("\n");
     return 0;
-}\n
+}
