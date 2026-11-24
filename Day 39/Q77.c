@@ -1,4 +1,5 @@
-// Q77: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q77: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, j, a[20][20], distinct = 1;
     printf("Enter order of square matrix: ");
@@ -9,4 +10,4 @@ int main(void) {
         if (a[i][i] == a[j][j]) distinct = 0;
     printf("%s\n", distinct ? "Diagonal elements are distinct" : "Diagonal elements are not distinct");
     return 0;
-}\n
+}
