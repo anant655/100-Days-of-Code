@@ -1,4 +1,5 @@
-// Q95: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q95: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 int main(void) {
     char a[250], b[250], joined[500];
@@ -14,4 +15,4 @@ int main(void) {
     strcpy(joined, a); strcat(joined, a);
     printf("%s\n", strstr(joined, b) ? "Rotation" : "Not a rotation");
     return 0;
-}\n
+}
