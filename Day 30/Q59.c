@@ -1,4 +1,5 @@
-// Q59: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q59: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], even = 0, odd = 0;
     printf("Enter number of elements: ");
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("Even = %d\nOdd = %d\n", even, odd);
     return 0;
-}\n
+}
