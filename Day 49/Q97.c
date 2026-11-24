@@ -1,4 +1,5 @@
-// Q97: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q97: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 int main(void) {
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("\n");
     return 0;
-}\n
+}
