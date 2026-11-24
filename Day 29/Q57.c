@@ -1,4 +1,5 @@
-// Q57: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q57: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], sum = 0;
     printf("Enter number of elements: ");
@@ -8,4 +9,4 @@ int main(void) {
     for (i = 0; i < n; i++) { scanf("%d", &a[i]); sum += a[i]; }
     printf("Sum = %d\n", sum);
     return 0;
-}\n
+}
