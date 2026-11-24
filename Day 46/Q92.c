@@ -1,4 +1,5 @@
-// Q92: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q92: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char text[500];
     int seen[26] = {0}, i;
@@ -13,4 +14,4 @@ int main(void) {
     }
     printf("No repeating lowercase alphabet\n");
     return 0;
-}\n
+}
