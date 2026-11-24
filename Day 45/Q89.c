@@ -1,4 +1,5 @@
-// Q89: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q89: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char text[500], target;
     int i, count = 0;
@@ -9,4 +10,4 @@ int main(void) {
     for (i = 0; text[i] != '\0'; i++) if (text[i] == target) count++;
     printf("Frequency = %d\n", count);
     return 0;
-}\n
+}
