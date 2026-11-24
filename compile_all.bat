@@ -1,5 +1,5 @@
 @echo off
-setlocal
+setlocal EnableDelayedExpansion
 where gcc >nul 2>nul
 if errorlevel 1 (
     echo GCC was not found. Install MinGW-w64 and add its bin folder to PATH.
@@ -15,7 +15,7 @@ for /r %%F in (Q*.c) do (
         set "FAILED=1"
     )
 )
-if "%FAILED%"=="0" (
+if "!FAILED!"=="0" (
     echo All C files compiled successfully.
 ) else (
     echo Some files could not be compiled. Check the messages above.
