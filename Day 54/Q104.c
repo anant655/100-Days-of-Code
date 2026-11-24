@@ -1,4 +1,5 @@
-// Q104: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q104: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     long long n, x, left = 0, right;
     printf("Enter n: "); scanf("%lld", &n);
@@ -11,4 +12,4 @@ int main(void) {
     }
     printf("-1\n");
     return 0;
-}\n
+}
