@@ -1,4 +1,5 @@
-// Q134: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q134: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum Status { SUCCESS, FAILURE, TIMEOUT };
     int status;
@@ -11,4 +12,4 @@ int main(void) {
         default: printf("Invalid status\n");
     }
     return 0;
-}\n
+}
