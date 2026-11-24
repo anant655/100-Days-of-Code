@@ -1,4 +1,5 @@
-// Q61: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q61: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], target, found = -1;
     printf("Enter number of elements: ");
@@ -12,4 +13,4 @@ int main(void) {
     if (found == -1) printf("Element not found\n");
     else printf("Element found at index %d\n", found);
     return 0;
-}\n
+}
