@@ -1,4 +1,5 @@
-// Q84: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q84: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char text[500];
     int i;
@@ -8,4 +9,4 @@ int main(void) {
         if (text[i] >= 'a' && text[i] <= 'z') text[i] = text[i] - 'a' + 'A';
     printf("Uppercase: %s", text);
     return 0;
-}\n
+}
