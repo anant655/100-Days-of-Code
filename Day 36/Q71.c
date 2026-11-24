@@ -1,4 +1,5 @@
-// Q71: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q71: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int rows, cols, i, j, a[20][20];
     printf("Enter rows and columns: ");
@@ -9,4 +10,4 @@ int main(void) {
     printf("Matrix:\n");
     for (i = 0; i < rows; i++) { for (j = 0; j < cols; j++) printf("%d ", a[i][j]); printf("\n"); }
     return 0;
-}\n
+}
