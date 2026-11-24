@@ -1,4 +1,5 @@
-// Q99: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q99: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int day, year;
     char date[30];
@@ -10,4 +11,4 @@ int main(void) {
     }
     printf("%02d-%s-%04d\n", day, month, year);
     return 0;
-}\n
+}
