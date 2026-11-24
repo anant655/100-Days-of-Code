@@ -1,4 +1,5 @@
-// Q108: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q108: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], answer[100], i;
     long long prefix = 1, suffix = 1;
@@ -10,4 +11,4 @@ int main(void) {
     for (i = 0; i < n; i++) printf("%d ", answer[i]);
     printf("\n");
     return 0;
-}\n
+}
