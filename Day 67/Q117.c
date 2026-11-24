@@ -1,4 +1,5 @@
-// Q117: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q117: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int m, n, a[100], b[100], result[200], i = 0, j = 0, k = 0;
     printf("Enter sizes of two sorted arrays: "); scanf("%d %d", &m, &n);
@@ -15,4 +16,4 @@ int main(void) {
     for (i = 0; i < k; i++) printf("%d ", result[i]);
     printf("\n");
     return 0;
-}\n
+}
