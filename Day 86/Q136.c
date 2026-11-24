@@ -1,4 +1,5 @@
-// Q136: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q136: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum Operation { ADD = 1, SUBTRACT, MULTIPLY };
     int choice, a, b;
@@ -13,4 +14,4 @@ int main(void) {
         default: printf("Invalid choice\n");
     }
     return 0;
-}\n
+}
