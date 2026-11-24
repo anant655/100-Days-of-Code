@@ -1,4 +1,5 @@
-// Q60: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q60: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[100], positive = 0, negative = 0, zero = 0;
     printf("Enter number of elements: ");
@@ -13,4 +14,4 @@ int main(void) {
     }
     printf("Positive = %d\nNegative = %d\nZero = %d\n", positive, negative, zero);
     return 0;
-}\n
+}
