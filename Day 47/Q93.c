@@ -1,4 +1,5 @@
-// Q93: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q93: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char a[500], b[500];
     int count[256] = {0}, i, same = 1;
@@ -11,4 +12,4 @@ int main(void) {
     for (i = 0; i < 256; i++) if (count[i] != 0) same = 0;
     printf("%s\n", same ? "Anagrams" : "Not anagrams");
     return 0;
-}\n
+}
