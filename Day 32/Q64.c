@@ -1,4 +1,5 @@
-// Q64: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q64: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     long long number;
     int frequency[10] = {0}, digit, i, best = 0;
@@ -10,4 +11,4 @@ int main(void) {
     for (i = 1; i < 10; i++) if (frequency[i] > frequency[best]) best = i;
     printf("Most frequent digit = %d (frequency %d)\n", best, frequency[best]);
     return 0;
-}\n
+}
