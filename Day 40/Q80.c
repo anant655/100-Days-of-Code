@@ -1,4 +1,5 @@
-// Q80: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q80: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int r1, c1, r2, c2, i, j, k, a[20][20], b[20][20], product[20][20] = {{0}};
     printf("Enter rows and columns of first matrix: ");
@@ -14,4 +15,4 @@ int main(void) {
         for (k = 0; k < c1; k++) product[i][j] += a[i][k] * b[k][j];
     for (i = 0; i < r1; i++) { for (j = 0; j < c2; j++) printf("%d ", product[i][j]); printf("\n"); }
     return 0;
-}\n
+}
