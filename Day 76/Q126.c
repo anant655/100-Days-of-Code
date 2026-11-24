@@ -1,4 +1,5 @@
-// Q126: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q126: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *file;
     char filename[100];
@@ -9,4 +10,4 @@ int main(void) {
     while ((ch = fgetc(file)) != EOF) putchar(ch);
     fclose(file);
     return 0;
-}\n
+}
