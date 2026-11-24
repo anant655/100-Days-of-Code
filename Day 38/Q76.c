@@ -1,4 +1,5 @@
-// Q76: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q76: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, j, a[20][20], symmetric = 1;
     printf("Enter order of square matrix: ");
@@ -9,4 +10,4 @@ int main(void) {
         if (a[i][j] != a[j][i]) symmetric = 0;
     printf("%s\n", symmetric ? "Symmetric matrix" : "Not symmetric");
     return 0;
-}\n
+}
