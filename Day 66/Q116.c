@@ -1,4 +1,5 @@
-// Q116: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q116: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], target, i, j;
     printf("Enter size: "); scanf("%d", &n);
@@ -9,4 +10,4 @@ int main(void) {
         if (a[i] + a[j] == target) { printf("%d %d\n", i, j); return 0; }
     printf("-1 -1\n");
     return 0;
-}\n
+}
