@@ -1,4 +1,5 @@
-// Q113: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q113: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, k, a[100], i, j, temp;
     printf("Enter size and k: "); scanf("%d %d", &n, &k);
@@ -8,4 +9,4 @@ int main(void) {
         if (a[j] > a[j+1]) { temp = a[j]; a[j] = a[j+1]; a[j+1] = temp; }
     printf("Kth smallest = %d\n", a[k-1]);
     return 0;
-}\n
+}
