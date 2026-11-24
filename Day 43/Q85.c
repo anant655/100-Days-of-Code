@@ -1,4 +1,5 @@
-// Q85: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q85: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char text[500], temp;
     int length = 0, i;
@@ -11,4 +12,4 @@ int main(void) {
     text[length] = '\0';
     printf("Reversed string: %s\n", text);
     return 0;
-}\n
+}
