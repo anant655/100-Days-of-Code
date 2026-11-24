@@ -1,4 +1,5 @@
-// Q128: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q128: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <ctype.h>
 int main(void) {
     FILE *file;
@@ -17,4 +18,4 @@ int main(void) {
     fclose(file);
     printf("Vowels = %d\nConsonants = %d\n", vowels, consonants);
     return 0;
-}\n
+}
