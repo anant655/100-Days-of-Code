@@ -1,4 +1,5 @@
-// Q114: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q114: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 int main(void) {
     char s[500];
@@ -14,4 +15,4 @@ int main(void) {
     }
     printf("Longest substring length = %d\n", best);
     return 0;
-}\n
+}
