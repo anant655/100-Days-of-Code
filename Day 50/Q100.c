@@ -1,4 +1,5 @@
-// Q100: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q100: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 int main(void) {
     char text[100];
@@ -12,4 +13,4 @@ int main(void) {
         }
     }
     return 0;
-}\n
+}
