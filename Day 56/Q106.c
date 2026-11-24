@@ -1,4 +1,5 @@
-// Q106: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q106: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], i, j, next;
     printf("Enter size: "); scanf("%d", &n);
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("\n");
     return 0;
-}\n
+}
