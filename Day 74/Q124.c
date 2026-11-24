@@ -1,4 +1,5 @@
-// Q124: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q124: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     FILE *source, *destination;
     char sourceName[100], destinationName[100];
@@ -14,4 +15,4 @@ int main(void) {
     fclose(destination);
     printf("File copied successfully\n");
     return 0;
-}\n
+}
