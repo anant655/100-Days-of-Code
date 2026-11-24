@@ -1,4 +1,5 @@
-// Q63: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q63: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, m, i, a[100], b[100];
     printf("Enter sizes of the two arrays: ");
@@ -13,4 +14,4 @@ int main(void) {
     for (i = 0; i < m; i++) printf("%d ", b[i]);
     printf("\n");
     return 0;
-}\n
+}
