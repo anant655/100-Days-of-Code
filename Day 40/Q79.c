@@ -1,4 +1,5 @@
-// Q79: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q79: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int r, c, i, j, a[20][20], d;
     printf("Enter rows and columns: ");
@@ -13,4 +14,4 @@ int main(void) {
     }
     printf("\n");
     return 0;
-}\n
+}
