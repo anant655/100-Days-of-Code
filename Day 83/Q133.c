@@ -1,4 +1,5 @@
-// Q133: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q133: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     enum Month { JANUARY = 1, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER };
     const char *names[] = {"", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
@@ -6,4 +7,4 @@ int main(void) {
     int month;
     for (month = JANUARY; month <= DECEMBER; month++) printf("%s: %d days\n", names[month], days[month]);
     return 0;
-}\n
+}
