@@ -1,4 +1,5 @@
-// Q56: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q56: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i;
     int a[100];
@@ -11,4 +12,4 @@ int main(void) {
     for (i = 0; i < n; i++) printf("%d ", a[i]);
     printf("\n");
     return 0;
-}\n
+}
