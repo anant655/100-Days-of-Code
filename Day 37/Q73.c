@@ -1,4 +1,5 @@
-// Q73: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q73: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int rows, cols, i, j, a[20][20], rowSum[20];
     printf("Enter rows and columns: ");
@@ -12,4 +13,4 @@ int main(void) {
     for (i = 0; i < rows; i++) printf("%d ", rowSum[i]);
     printf("\n");
     return 0;
-}\n
+}
