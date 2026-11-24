@@ -1,4 +1,5 @@
-// Q66: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q66: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, i, a[101], value, position;
     printf("Enter size of sorted array: ");
@@ -16,4 +17,4 @@ int main(void) {
     for (i = 0; i <= n; i++) printf("%d ", a[i]);
     printf("\n");
     return 0;
-}\n
+}
