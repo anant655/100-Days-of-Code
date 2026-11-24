@@ -1,4 +1,5 @@
-// Q112: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q112: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     int n, a[100], i, current, best;
     printf("Enter size: "); scanf("%d", &n);
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("Maximum subarray sum = %d\n", best);
     return 0;
-}\n
+}
