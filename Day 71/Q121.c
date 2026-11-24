@@ -1,4 +1,5 @@
-// Q121: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q121: Solution in beginner-friendly C.
+#include <stdio.h>
 int main(void) {
     char name[100];
     int age;
@@ -12,4 +13,4 @@ int main(void) {
     fclose(file);
     printf("Data successfully saved in info.txt\n");
     return 0;
-}\n
+}
