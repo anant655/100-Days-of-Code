@@ -1,4 +1,5 @@
-// Q127: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q127: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <ctype.h>
 int main(void) {
     FILE *input = fopen("input.txt", "r");
@@ -12,4 +13,4 @@ int main(void) {
     fclose(output);
     printf("Converted text saved in output.txt\n");
     return 0;
-}\n
+}
