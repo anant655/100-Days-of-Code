@@ -1,4 +1,5 @@
-// Q94: Solution in beginner-friendly C.\n#include <stdio.h>
+// Q94: Solution in beginner-friendly C.
+#include <stdio.h>
 #include <string.h>
 int main(void) {
     char sentence[500], longest[500] = "";
@@ -12,4 +13,4 @@ int main(void) {
     }
     printf("Longest word = %s\n", longest);
     return 0;
-}\n
+}
